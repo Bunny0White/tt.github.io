@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Anime | Accuel</title>
+  <link rel="icon"href="./img/Logo.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+  <nav class="navbar">
+    <a href="#" class="logo" style="width: 25px;"><img src="./img/Logo.png"></a>
+    <div class="nav-links ">
+      <ul>
+        <li><a class="active" href="./Accueil.html" href="#home">Accueil</a></li>
+        <li><a href="./Recettes.html" href="#recette">Recettes</a></li>
+        <li><a href="./Personnages.html" href="#personnages">Personnages</a></li>
+        <li><a href="./Abouts.html" href="#about">À propos</a></li>
+      </ul>
+    </div>
+    <img src="./img/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+  </nav>
+<body>
+  <!-- Nouveaux <body>-->
+  <header>
+    <div>
+      <br>
+    </div>
+  </header>
+
+  
+  <footer>
+    <p>&copy; 2024 Foodam. Tous droits réservés.</p>
+  </footer>
+  
+</body>
+
+  <script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</html>

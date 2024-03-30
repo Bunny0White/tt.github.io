@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Anime | Accuel</title>
+  <link rel="icon" href="../img/Logo.png">
+  <link rel="stylesheet" href="./styles2.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+
+  <nav class="navbar">
+    <a href="#" class="logo" style="width: 25px;"><img src="../img/Logo.png"></a>
+    <div class="nav-links ">
+      <ul>
+        <li><a href="../Accueil.html" href="#home">Accueil</a></li>
+        <li><a href="../Recettes.html" href="#recette">Recettes</a></li>
+        <li><a href="../Personnages.html" href="#personnages">Personnages</a></li>
+        <li><a class="active" href="../About/Abouts.html" href="#about">À propos</a></li>
+      </ul>
+    </div>
+    <img src="../img/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+  </nav>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<div class="container">
+    <div class="recipe">
+        <img src="../img/Interrogation-PNG-Photo.png" alt="Onigiri au Saumon">
+        <h2>En attente de fin de création</h2>
+    </div>
+</div>
+
+  
+  <footer>
+    <p>&copy; 2024 Food Anime. Tous droits réservés.</p>
+  </footer>
+  
+</body>
+
+  <script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</html>
