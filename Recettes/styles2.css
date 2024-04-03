@@ -14,7 +14,18 @@ h1 {
     background-color: #ff819cc4;
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(170, 0, 51);
+    transform-style: preserve-3d;
 }
+
+.recipe:hover img {
+    transform: translateZ(30px);
+    transition: all 0.5s ease;
+}
+.recipe:hover h2 {
+    transform: translateZ(30px);
+    transition: all 0.5s ease;
+}
+
 .recipe img {
     max-width: 100%;
     border-radius: 4px;
