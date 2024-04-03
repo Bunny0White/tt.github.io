@@ -22,18 +22,13 @@
     <img src="./img/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
   </nav>
 <body>
-  <
-
   <br>
   <br>
   <br>
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <div class="container">
+<div class="container">
       <div class="person">
           <img src="./img/Bunny_White.png" alt="Bunny_White">
           <div class="person-details">
@@ -42,23 +37,30 @@
               <p>Passionné par la création de sites web est la programmation.</p>
           </div>
       </div>
-      <div class="person">
-          <img src="./img/overload.png" alt="Overload">
-          <div class="person-details">
-              <h2>Théo Beaumain</h2>
-              <p>Ressource du site</p>
-              <p>J'aime la cuisine les jeux vidéos la musique et les mangas.</p>
-          </div>
-      </div>
-      <div class="person">
-        <img src="./img/logo_transparent_flavion.png" alt="online corps">
+  </div>
+
+<div class="container2">
+    <div class="person">
+        <img src="./img/overload.png" alt="Overload">
         <div class="person-details">
-            <h2><a href="http://online-corps.fr" target="_blank" rel="noopener noreferrer" style="color: black;">Online Corps</a></h2>
-            <p>Site partenaire</p>
-            <p>Site principal de Food-anime <a href="http://online-corps.fr" target="_blank" rel="noopener noreferrer">ici</a>.</p>
+            <h2>Théo Beaumain</h2>
+            <p>Ressource du site</p>
+            <p>J'aime la cuisine les jeux vidéos la musique et les mangas.</p>
         </div>
     </div>
+</div>
+
+<div class="container3">
+  <div class="person">
+    <img src="./img/logo_transparent_flavion.png" alt="online corps">
+    <div class="person-details">
+        <h2><a href="http://online-corps.fr" target="_blank" rel="noopener noreferrer" style="color: black;">Online Corps</a></h2>
+        <p>Site partenaire</p>
+        <p>Site principal de Food-anime <a style="color: brown;" href="http://online-corps.fr" target="_blank" rel="noopener noreferrer">ici</a>.</p>
+    </div>
   </div>
+</div>
+
 
   
   <footer>
@@ -75,4 +77,24 @@
     navLinks.classList.toggle('mobile-menu')
     })
   </script>
+
+<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+  VanillaTilt.init(document.querySelector(".container"), {
+    max: 10,
+    speed: 6500
+  });
+
+  
+  VanillaTilt.init(document.querySelector(".container2"), {
+    max: 10,
+    speed: 6500
+  });
+
+  
+  VanillaTilt.init(document.querySelector(".container3"), {
+    max: 10,
+    speed: 6500
+  });
+</script>
 </html>

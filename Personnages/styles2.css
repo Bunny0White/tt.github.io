@@ -42,6 +42,7 @@ h1 {
     transform: translateZ(30px);
     transition: all 0.5s ease;
 }
+
 .character {
     margin-bottom: 20px;
     padding: 20px;
