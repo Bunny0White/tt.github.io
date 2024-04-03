@@ -89,7 +89,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     position: fixed;
-    bottom: 0;
+    bottom: -15px;
     width: 100%;
     box-shadow: 0 0 10px rgb(170, 0, 51);
 }
