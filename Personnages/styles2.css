@@ -8,9 +8,10 @@ h1 {
     padding: 20px;
     border-radius: 8px;
     transform-style: preserve-3d;
+    display: block;
 }
 
-.container .character:hover {
+.container .person:hover {
     transform: translateZ(30px);
     transition: all 0.5s ease;
 }
@@ -22,9 +23,10 @@ h1 {
     border-radius: 8px;
     transform-style: preserve-3d;
     margin-top: -60px;
+    display: block;
 }
 
-.container2 .character:hover {
+.container2 .person:hover {
     transform: translateZ(30px);
     transition: all 0.5s ease;
 }
@@ -36,9 +38,10 @@ h1 {
     border-radius: 8px;
     transform-style: preserve-3d;
     margin-top: -60px;
+    display: block;
 }
 
-.container3 .character:hover {
+.container3 .person:hover {
     transform: translateZ(30px);
     transition: all 0.5s ease;
 }
