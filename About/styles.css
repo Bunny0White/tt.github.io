@@ -113,7 +113,8 @@ footer {
 
 
 @media screen and (max-width: 695px) {
-.navbar {
+
+	.navbar {
 		margin-right: 10px;
 		margin: 0px;
 		width: 106%;
@@ -192,5 +193,4 @@ footer {
 		border: solid rgba(255, 84, 84, 0.568) 3px;
 		border-radius: 10px;
 	}
-
 }
