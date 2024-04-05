@@ -10,7 +10,6 @@ h1 {
     padding: 20px;
     border-radius: 8px;
     transform-style: preserve-3d;
-    display: block;
 }
 
 .container .person:hover {
@@ -25,7 +24,6 @@ h1 {
     border-radius: 8px;
     transform-style: preserve-3d;
     margin-top: -60px;
-    display: block;
 }
 
 .container2 .person:hover {
@@ -40,7 +38,6 @@ h1 {
     border-radius: 8px;
     transform-style: preserve-3d;
     margin-top: -60px;
-    display: block;
 }
 
 .container3 .person:hover {

@@ -136,18 +136,6 @@ footer {
 		align-items: center;
 		margin-left: -100%;
 		transition: all 0.5s ease;
-
-		.container {
-			display: none;
-		}
-		
-		.container2 {
-			display: none;
-		}
-		
-		.container3 {
-			display: none;
-		}
 	}
 
 	.nav-links.mobile-menu {
