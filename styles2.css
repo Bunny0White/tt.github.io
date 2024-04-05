@@ -62,7 +62,6 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(170, 0, 51);
     transform-style: preserve-3d;
-    display: flex;
 }
 
 .recipe:hover img {

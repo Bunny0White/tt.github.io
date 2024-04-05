@@ -15,6 +15,7 @@ h1 {
     background-color: #ff819cc4;
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(170, 0, 51);
+    display: flex;
 }
 .character img {
     max-width: 100%;
